@@ -8,23 +8,22 @@
         <groupId>com.gym</groupId>
         <artifactId>gym-microservices-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../parent</relativePath>
+        <relativePath>../parent/pom.xml</relativePath>
     </parent>
 
     <groupId>com.gym</groupId>
     <artifactId>eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>eureka-server</name>
-        <description>Eureka Server for Gym Microservices</description>
-    
-    <!-- Repositories for GitHub Packages -->
+    <description>Eureka Server for Gym Microservices</description>
+
     <repositories>
         <repository>
             <id>gym-microservices-releases</id>
             <url>https://maven.pkg.github.com/Gym-Microservices/parent</url>
         </repository>
     </repositories>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
