@@ -17,13 +17,6 @@
     <name>eureka-server</name>
     <description>Eureka Server for Gym Microservices</description>
 
-    <repositories>
-        <repository>
-            <id>gym-microservices-releases</id>
-            <url>https://maven.pkg.github.com/Gym-Microservices/parent</url>
-        </repository>
-    </repositories>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
